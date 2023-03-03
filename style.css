@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  /* background: rgba(146, 146, 146, 0.266);
+  outline: dotted 2px; */
+}
+
+html {
+  background: #0c122c;
+  font-family: "Raleway", sans-serif;
+  font-size: 0.875rem;
+  background-image: url(images/bg-desktop.png);
+  background-repeat: no-repeat;
+  background-size: 100% 48%;
+  background-position: center bottom;
+}
+
+body {
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+}
+
+.grid {
+  display: grid;
+}
+
+.flex {
+  display: flex;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.data {
+  grid-template-columns: 1fr 2fr;
+  align-items: end;
+  gap: 2rem;
+  margin: 0rem 1rem;
+}
+
+.data__options {
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem 7rem 2rem 2rem;
+  border-radius: 0.5rem 4rem 0.5rem 0.5rem;
+  background: #1e2c69;
+}
+
+.data__logo {
+  width: 9rem;
+}
+
+.data__options-wrapper {
+  gap: 0.7rem;
+}
+
+.data__link {
+  border-radius: 0.7rem;
+  background: #0d132d;
+  align-items: center;
+}
+
+.data__options-icons {
+  padding: 0.7rem;
+}
+
+.data__storage {
+  background: #1e2c69;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  gap: 0.5rem;
+}
+
+.data__paragraph {
+  color: #b5c0f6;
+}
+
+.data__bar-outline {
+  background-color: #151e49;
+  height: 1rem;
+  padding: 0.7rem 0.25rem 0.7rem 0.25rem;
+  border-radius: 1rem;
+  align-items: center;
+}
+
+.data__bar {
+  background: rgb(253, 159, 151);
+  background: linear-gradient(
+    90deg,
+    rgba(253, 159, 151, 1) 35%,
+    rgba(250, 76, 145, 1) 100%
+  );
+  width: 81.5%;
+  height: 1rem;
+  border-radius: 1rem;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 0.1rem 0 0;
+}
+
+.data__bar-tip {
+  height: 0.7rem;
+  width: 0.7rem;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.data__wrapper {
+  justify-content: space-between;
+}
