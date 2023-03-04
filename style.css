@@ -127,3 +127,19 @@ video {
 .data__wrapper {
   justify-content: space-between;
 }
+
+@media only screen and (max-width: 615px) {
+  html {
+    background-image: url(images/bg-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .data {
+    grid-template-columns: 1fr;
+  }
+
+  .data__paragraph {
+    text-align: center;
+  }
+}
