@@ -181,6 +181,7 @@ video {
     justify-self: center;
     top: 36.5rem;
     right: unset;
+    bottom: unset;
     height: fit-content;
   }
 
