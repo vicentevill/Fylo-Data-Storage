@@ -173,13 +173,9 @@ video {
     text-align: center;
   }
 
-  .data__storage {
-    position: unset;
-  }
-
   .data__bubble {
     justify-self: center;
-    top: 36.5rem;
+    top: 7.5rem;
     right: unset;
     bottom: unset;
     height: fit-content;
